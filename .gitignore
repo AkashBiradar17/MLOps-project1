@@ -3,6 +3,9 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+#newly added
+.totestcode.py
+
 # C extensions
 *.so
 
