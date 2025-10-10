@@ -4,7 +4,10 @@ __pycache__/
 *$py.class
 
 #newly added
-.totestcode.py
+totestcode.py
+
+#extra files
+home_krish naik.html
 
 # C extensions
 *.so
