@@ -33,8 +33,8 @@ class CustomData:
         parental_level_of_education,
         lunch: str,
         test_preparation_course: str,
-        reading_score: int,
-        writing_score: int):
+        physics_score: int,
+        chemistry_score: int):
 
         self.gender = gender
 
@@ -46,9 +46,9 @@ class CustomData:
 
         self.test_preparation_course = test_preparation_course
 
-        self.reading_score = reading_score
+        self.physics_score = physics_score
 
-        self.writing_score = writing_score
+        self.chemistry_score = chemistry_score
 
     def get_data_as_data_frame(self):
         try:
@@ -58,8 +58,8 @@ class CustomData:
                 "parental_level_of_education": [self.parental_level_of_education],
                 "lunch": [self.lunch],
                 "test_preparation_course": [self.test_preparation_course],
-                "reading_score": [self.reading_score],
-                "writing_score": [self.writing_score],
+                "physics_score": [self.physics_score],
+                "chemistry_score": [self.chemistry_score],
             }
 
             return pd.DataFrame(custom_data_input_dict)
